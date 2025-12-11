@@ -2,7 +2,7 @@ input.onButtonPressed(Button.A, function () {
     radio.sendNumber(1)
     while (conta != 0) {
         basic.showNumber(conta)
-        basic.pause(1000)
+        basic.pause(500)
         conta += -1
     }
     choice = randint(2, 3)
@@ -29,4 +29,4 @@ input.onButtonPressed(Button.A, function () {
 let choice = 0
 let conta = 0
 radio.setGroup(1)
-conta = 15
+conta = 10
